@@ -1,6 +1,6 @@
 # ServiceHub Enterprise Template
 
-A production-ready, containerized full-stack architecture featuring **ASP.NET Core Web API**, **Astro SSR**, and **SQL Server 2022**. This template is designed for scalability, maintainability, and ease of deployment using Docker Compose.
+A production-ready, containerized full-stack architecture for managing services.
 
 ## Quick Start
 

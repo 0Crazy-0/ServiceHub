@@ -1,7 +1,7 @@
 # ServiceHub - Project Overview
 
 ## Introduction
-ServiceHub is a modern, scalable web application designed to facilitate service management and user interaction. It leverages a robust microservices-ready architecture with a .NET Core backend and a high-performance Astro frontend.
+ServiceHub is a production-ready, containerized full-stack architecture featuring an **ASP.NET Core Backend**, **Astro SSR**, and **PostgreSQL**. This template is designed for scalability, maintainability, and ease of deployment using Docker Compose. It leverages a robust microservices-ready architecture to facilitate service management and user interaction.
 
 ## Live Demo
 You can view the live application deployed on Render here: [ServiceHub Live Demo](https://servicehub-esd7.onrender.com/)
@@ -12,7 +12,8 @@ The project follows a decoupled client-server architecture, containerized using 
 
 ### Technology Stack
 
-*   **Backend**: ASP.NET Core Web API (.NET 8/9)
+*   **Backend**: ASP.NET Core (.NET 8/9)
+    *   Implements a **layered architecture** for clean separation of concerns.
     *   Provides RESTful endpoints for the frontend.
     *   Handles business logic, authentication, and data persistence.
     *   Uses Entity Framework Core for ORM.
@@ -24,7 +25,7 @@ The project follows a decoupled client-server architecture, containerized using 
     *   Relational database management system for persistent storage.
     *   Running in a Docker container.
 *   **Containerization**: Docker & Docker Compose
-    *   Orchestrates the multi-container application (Backend, Frontend, Database).
+    *   Orchestrates the multi-containe rapplication (Backend, Frontend, Database).
 
 ## Key Features
 
