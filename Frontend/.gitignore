@@ -291,6 +291,9 @@ FakesAssemblies/
 # GhostDoc plugin setting file
 *.GhostDoc.xml
 
+# generated types
+.astro/
+
 # Node.js Tools for Visual Studio
 .ntvs_analysis.dat
 node_modules/
