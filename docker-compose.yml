@@ -40,6 +40,7 @@ services:
       ADMIN_EMAIL: "${ADMIN_EMAIL}"
       ADMIN_PASSWORD: "${ADMIN_PASSWORD}"
       ADMIN_USERNAME: "${ADMIN_USERNAME}"
+      CORS_ALLOWED_ORIGINS: "${CORS_ALLOWED_ORIGINS}"
     ports:
       - "5097:5097"
     depends_on:
