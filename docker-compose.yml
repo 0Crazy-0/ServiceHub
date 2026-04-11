@@ -27,7 +27,7 @@ services:
       dockerfile: Dockerfile.backend
     container_name: servicehub_backend
     environment:
-      ASPNETCORE_ENVIRONMENT: Production
+      ASPNETCORE_ENVIRONMENT: "${ASPNETCORE_ENVIRONMENT}"
       ASPNETCORE_URLS: "${ASPNETCORE_URLS}"
       CONNECTION_STRING: "${CONNECTION_STRING}"
       JWT_SECRET_KEY: "${JWT_SECRET_KEY}"
