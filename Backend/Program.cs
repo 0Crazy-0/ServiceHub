@@ -37,10 +37,15 @@ builder.Services.AddCorsConfiguration(corsSettings, environment);
 builder.Services.AddApplicationServices();
 
 builder.Services.AddControllers();
+builder.Services.AddSwaggerConfiguration();
 
 var app = builder.Build();
 
-if (!app.Environment.IsDevelopment())
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwaggerConfiguration();
+}
+else
 {
     app.UseHsts();
 }
