@@ -240,12 +240,7 @@ export default function Header() {
               >
                 Services
               </a>
-              <a
-                href="/about"
-                className="text-primary-light hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200"
-              >
-                About
-              </a>
+            
               {showAdmin && (
                 <a
                   href="/dashboard"
