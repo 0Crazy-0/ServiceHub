@@ -18,7 +18,7 @@ public static class DatabaseExtensions
     /// <returns>The service collection for chaining.</returns>
     public static IServiceCollection AddDatabaseServices(this IServiceCollection services)
     {
-        // Configure Entity Framework Core with SQL Server
+        // Configure Entity Framework Core with PostgreSQL
         services.AddDbContext<AppDbContext>(options => options.UseNpgsql(Environment.GetEnvironmentVariable("CONNECTION_STRING")));
 
         // Configure ASP.NET Core Identity
